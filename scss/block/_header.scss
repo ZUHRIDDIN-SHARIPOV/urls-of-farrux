@@ -38,11 +38,6 @@
   color: $light-grey;
 }
 
-@media only screen and (max-width: 970px) {
-  .site-header__content-location {
-    color: $white;
-  }
-}
 @media only screen and (max-width: 550px) {
   .site-header__block {
     flex-direction: column;
@@ -52,8 +47,5 @@
   }
   .site-header__content {
     margin-top: 17px;
-  }
-  .site-header__content-location {
-    color: $light-blue;
   }
 }

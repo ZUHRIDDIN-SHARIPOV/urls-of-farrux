@@ -10,8 +10,12 @@ html {
 body {
   margin: 0;
   padding: 40px 0;
-  background-image: url("../images/vivid-blurred-colorful-background.jpg");
-  background-size: cover;
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 30%,
+    rgba(138, 43, 226, 1) 100%
+  );
 }
 ul,
 ol {

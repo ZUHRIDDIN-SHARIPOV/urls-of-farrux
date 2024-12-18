@@ -22,8 +22,8 @@ html {
 body {
   margin: 0;
   padding: 40px 0;
-  background-image: url("../images/vivid-blurred-colorful-background.jpg");
-  background-size: cover;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgb(2, 0, 36)), color-stop(30%, rgb(9, 9, 121)), to(rgb(138, 43, 226)));
+  background: linear-gradient(180deg, rgb(2, 0, 36) 0%, rgb(9, 9, 121) 30%, rgb(138, 43, 226) 100%);
 }
 
 ul,
@@ -124,11 +124,6 @@ img {
   color: rgba(201, 201, 255, 0.85);
 }
 
-@media only screen and (max-width: 970px) {
-  .site-header__content-location {
-    color: #fff;
-  }
-}
 @media only screen and (max-width: 550px) {
   .site-header__block {
     -webkit-box-orient: vertical;
@@ -143,9 +138,6 @@ img {
   }
   .site-header__content {
     margin-top: 17px;
-  }
-  .site-header__content-location {
-    color: #7979ff;
   }
 }
 .hero__list {
