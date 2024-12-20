@@ -18,6 +18,24 @@
   background-color: $light-green;
 }
 .hero__item:nth-child(4) {
+  background: $gradient-vk;
+  &:hover {
+    background: $black;
+    transition: 0.5s ease all;
+  }
+}
+.hero__item:nth-child(5) {
+  background-color: $white;
+  .hero__item-title {
+    color: $black;
+  }
+  &:hover {
+    .hero__item-title {
+      color: $white;
+    }
+  }
+}
+.hero__item:nth-child(6) {
   background-color: $grey;
 }
 .hero__item:last-child {
